@@ -1,0 +1,227 @@
+body{
+  padding: 25px;
+}
+.title {
+	color: #5C6AC4;
+}
+
+header{
+  background-color: tomato;
+  display: flex;
+  align-items: centre;
+  justify-content: space-between;
+  color: white;
+  padding: 20px 40px;
+}
+
+.top-left h1{
+  margin: 0;
+  font-size: 30px;
+}
+
+.top-left p{
+  font-size: 16px;
+  padding: 0;
+  margin: 5px ;
+}
+
+.mail{
+  height: 15px;
+  
+}
+
+.top-right a{
+  margin-left: 10px;
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  transition: 0,3s;
+}
+
+.top-right a:hover{
+  color:#ccc;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+.intro{
+  display: flex;
+  align-items: centre;
+  background: #f9f9f9;
+}
+
+.avatar{
+  width: 200px;
+  border-radius: 50%;
+  height: 200px;
+  padding: 50px;
+  
+}
+
+.intro-txt{
+  padding-top:50px;
+}
+.intro-txt h2{
+  font-size: 50px;
+}
+.intro-txt p{
+  align-items: center;
+}
+
+.highlight{
+  color: rgb(46, 223, 108);
+}
+
+.skills {
+  padding: 20px 40px;
+  background: #f9f9f9;
+}
+
+.skill-grid {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.skill-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  
+}
+
+.skill-card img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+.skill-card p {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.skill-card span {
+  font-size: 14px;
+  color: #555;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #ccc;
+  width: 500px;
+}
+
+.projects {
+  padding: 40px;
+  background-color:#f9f9f9;
+  
+}
+.projects h3{
+  padding-left: 20px;
+  
+}
+.projects li{
+  padding-left:50px;
+}
+
+.recommendations {
+  padding: 50px 40px;
+  text-align: left;
+  background-color: #f9f9f9;
+  position: relative;
+}
+
+.recommendations h3 {
+  font-size: 28px;
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+
+.recommendation-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.card {
+  background-color: #fdfdfd;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 300px;
+  text-align: left;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.card .quote {
+  color: tomato;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.recommendation-form {
+  max-width: 500px;
+  margin: auto;
+}
+
+.recommendation-form h3 {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.recommendation-form input,
+.recommendation-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 14px;
+  border: 1px solid #999;
+  border-radius: 5px;
+  resize: vertical;
+}
+
+.recommendation-form button {
+  background-color:#480096;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.recommendation-form button:hover {
+  background-color: rgb(63, 26, 82) ;
+}
+
+.scroll-top {
+  height: 40px;
+  width: 40px;
+  border-radius: 100;
+  position: fixed;
+  float:right;
+  bottom: 20px;
+  right: 15px;
+  background-color:#480096;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.scroll-top:hover {
+  background-color: #3e007a;
+}
